@@ -24,4 +24,10 @@ double sigmoid(double x){
     return ans;
 }
 
-#endif BPNN_H
+class BPNeuralNetwork{
+    public:
+        BPNeuralNetwork()
+    private:
+}
+
+#endif
