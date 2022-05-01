@@ -7,6 +7,8 @@
 #include <time.h>
 
 using std::vector;
+using std::cout;
+using std::endl;
 
 #define input_nodes 6     // 输入层节点数
 #define hidden_nodes 3    // 隐含层节点数
@@ -65,8 +67,8 @@ public:
     void forwardPropagation();
     void backwardPropagation();
 
-    void train();
-    void predict();
+    void train(vector<sample> sampleGroup, double threshold);
+    void predict(vector<sample> sampleGroup);
 
     void setInput(vector<double> sample_data_in);
     void setOutput(vector<double> sample_data_out);

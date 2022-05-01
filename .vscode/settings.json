@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "__bit_reference": "cpp",
+        "algorithm": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "unordered_map": "cpp",
+        "__functional_base": "cpp",
+        "__node_handle": "cpp",
+        "deque": "cpp",
+        "__memory": "cpp",
+        "filesystem": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "limits": "cpp",
+        "memory": "cpp",
+        "optional": "cpp",
+        "random": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "vector": "cpp"
+    }
+}
